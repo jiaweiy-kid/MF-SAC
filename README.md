@@ -17,7 +17,7 @@ This repository contains the code for the paper **“[Toward Electrical Vehicle 
 │   └── ...               # Other scripts
 ├── run/                  # Results folder (model outputs, visualizations, etc.)
 ├── README.md             # Project documentation (this file)
-├── requirements.txt      # Python dependencies
+├── environment.yml      # Python dependencies
 └── LICENSE               # License file
 ```
 
@@ -26,7 +26,7 @@ This repository contains the code for the paper **“[Toward Electrical Vehicle 
 Make sure to install the necessary dependencies listed in the `requirements.txt` file. You can install them by running the following command:
 
 ```bash
-pip install -r requirements.txt
+conda env create -f environment.yml
 ```
 
 ### Dependency List:
@@ -52,7 +52,7 @@ Our dataset is from ISO New England, the link is https://www.iso-ne.com/isoexpre
 
 2. **Install dependencies**:
    ```bash
-   pip install -r requirements.txt
+   conda env create -f environment.yml
    ```
 
 3. **Run the code**:
