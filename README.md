@@ -46,7 +46,7 @@ Our dataset is from ISO New England, the link is https://www.iso-ne.com/isoexpre
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/your-repository-name.git
+   git clone https://github.com/jiaweiy-kid/MF-SAC.git
    cd your-repository-name
    ```
 
@@ -61,26 +61,14 @@ Our dataset is from ISO New England, the link is https://www.iso-ne.com/isoexpre
      ```bash
      python src/main.py
      ```
-
-   - Preprocess the data:
-     ```bash
-     python src/data_preprocessing.py
-     ```
-
-   - Train the model:
-     ```bash
-     python src/train_model.py
-     ```
-
    - Visualize results:
      ```bash
-     python src/plot_results.py
+     tensorboard logdir=run/your result log file
      ```
 
 ## Results
 
-The results will be saved in the `results/` directory, including:
-- Model predictions
+The results will be saved in the `run/` directory, including:
 - Visualizations (plots, charts)
 - Experiment logs
 
@@ -94,4 +82,3 @@ This project is licensed under the **[License Type, e.g., MIT, Apache 2.0]**. Se
 
 ---
 
-Feel free to adjust the file structure, dependencies, and descriptions to fit your specific project.
