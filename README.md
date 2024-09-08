@@ -71,6 +71,7 @@ Our dataset is from ISO New England, the link is https://www.iso-ne.com/isoexpre
 The results will be saved in the `run/` directory, including:
 - Visualizations (plots, charts)
 - Experiment logs
+![Result](images/result.jpg)
 
 ## Contribution
 
