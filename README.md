@@ -79,7 +79,7 @@ Contributions are welcome! If you have any improvements or suggestions, feel fre
 
 ## License
 
-This project is licensed under the **[License Type, e.g., MIT, Apache 2.0]**. See the [LICENSE](./LICENSE) file for more details.
+This project is licensed under the **[MIT, Apache 2.0]**. See the [LICENSE](./LICENSE) file for more details.
 
 ---
 
