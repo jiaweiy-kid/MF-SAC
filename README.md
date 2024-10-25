@@ -23,7 +23,7 @@ This repository contains the code for the paper **“[Toward Electrical Vehicle 
 
 ## Requirements
 
-Make sure to install the necessary dependencies listed in the `requirements.txt` file. You can install them by running the following command:
+Make sure to install the necessary dependencies listed in the `environment.yml` file. You can install them by running the following command:
 
 ```bash
 conda env create -f environment.yml
